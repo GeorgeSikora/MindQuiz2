@@ -1,12 +1,13 @@
 <?php
-require_once($_SERVER["DOCUMENT_ROOT"].'/MindQuiz2/library/main.php');
-reqlib('database');
 
 if (!isset($_POST['langId'])) return;
 if (!isset($_POST['translationLangId'])) return;
 
 if (!isset($_POST['word'])) return;
 if (!isset($_POST['translation'])) return;
+
+require_once($_SERVER["DOCUMENT_ROOT"].'/MindQuiz2/library/main.php');
+reqlib('database');
 
 /* INPUT VALUES */
 

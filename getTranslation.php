@@ -4,10 +4,10 @@ reqlib('database');
 
 /* INPUT VALUES */
 
-$langName = "slovakia";
+$langName = "czech";
 $targetLangName = "english";
 
-$word = "bed";
+$word = "hovno";
 $translation = "";
 
 /* PROGRAM */
